@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0d1117"/>
+  
+  <!-- Half seal (right side) - cracked edge -->
+  <path d="M 128 48 
+           L 176 48 
+           L 192 64 
+           L 192 96 
+           L 184 112 
+           L 192 128 
+           L 192 160 
+           L 176 176 
+           L 128 176 
+           L 128 160 
+           L 136 148 
+           L 128 136 
+           L 136 124 
+           L 128 112 
+           L 136 100 
+           L 128 88 
+           L 136 76 
+           L 128 64 Z" 
+        fill="#c9d1d9" stroke="#f0f6fc" stroke-width="2"/>
+  
+  <!-- Seal inner etched circles -->
+  <circle cx="160" cy="112" r="32" fill="none" stroke="#0d1117" stroke-width="2"/>
+  <circle cx="160" cy="112" r="22" fill="none" stroke="#0d1117" stroke-width="2"/>
+  <circle cx="160" cy="112" r="12" fill="none" stroke="#0d1117" stroke-width="2"/>
+  
+  <!-- Crack lines on seal -->
+  <path d="M 128 56 L 120 68 L 128 80 L 116 92 L 128 104 L 118 116 L 128 128" 
+        fill="none" stroke="#0d1117" stroke-width="2"/>
+  <path d="M 128 136 L 120 144 L 128 156 L 122 164 L 128 172" 
+        fill="none" stroke="#0d1117" stroke-width="2"/>
+  
+  <!-- Hex keyhole in seal center -->
+  <polygon points="160,100 170,106 170,118 160,124 150,118 150,106" 
+           fill="#0d1117" stroke="#39d353" stroke-width="1.5"/>
+  
+  <!-- Hex-shaped turnkey (left side, inserted) -->
+  <g>
+    <!-- Key shaft -->
+    <rect x="88" y="108" width="36" height="8" fill="#c9d1d9" stroke="#f0f6fc" stroke-width="1.5"/>
+    
+    <!-- Hex head of key -->
+    <polygon points="88,112 80,100 68,100 60,112 68,124 80,124" 
+             fill="#c9d1d9" stroke="#f0f6fc" stroke-width="2"/>
+    
+    <!-- Key bit (hex shaped, entering keyhole) -->
+    <polygon points="124,104 134,110 134,118 124,124 116,118 116,110" 
+             fill="#39d353" stroke="#f0f6fc" stroke-width="1.5"/>
+    
+    <!-- Etched linework on key head -->
+    <line x1="74" y1="104" x2="74" y2="120" stroke="#0d1117" stroke-width="1.5"/>
+    <line x1="68" y1="108" x2="80" y2="108" stroke="#0d1117" stroke-width="1.5"/>
+    <line x1="68" y1="116" x2="80" y2="116" stroke="#0d1117" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Motion/activation lines from key to seal -->
+  <line x1="130" y1="108" x2="140" y2="106" stroke="#39d353" stroke-width="1.5"/>
+  <line x1="130" y1="112" x2="142" y2="112" stroke="#39d353" stroke-width="1.5"/>
+  <line x1="130" y1="116" x2="140" y2="118" stroke="#39d353" stroke-width="1.5"/>
+  
+  <!-- Small terminal prompt glyphs - etched text feel -->
+  <text x="68" y="140" font-family="monospace" font-size="10" fill="#39d353" letter-spacing="1">_</text>
+  <text x="84" y="140" font-family="monospace" font-size="10" fill="#39d353" letter-spacing="1">/</text>
+  
+  <!-- Corner bracket accents (brutalist frame) -->
+  <polyline points="24,24 24,40" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+  <polyline points="24,24 40,24" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+  <polyline points="232,232 232,216" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+  <polyline points="232,232 216,232" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+  
+  <!-- Crosshair mark (precision/activation) -->
+  <line x1="200" y1="200" x2="216" y2="200" stroke="#39d353" stroke-width="1.5"/>
+  <line x1="208" y1="192" x2="208" y2="208" stroke="#39d353" stroke-width="1.5"/>
+  <circle cx="208" cy="200" r="4" fill="none" stroke="#39d353" stroke-width="1"/>
+</svg>
